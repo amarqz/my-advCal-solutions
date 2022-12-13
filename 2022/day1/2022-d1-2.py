@@ -1,4 +1,4 @@
-with open('2022-d1-input.txt') as file:
+with open('2022/day1/2022-d1-input.txt') as file:
     input = file.read().split('\n')
 
 elfCalorieCount = 0

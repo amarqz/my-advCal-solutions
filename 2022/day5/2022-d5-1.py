@@ -28,7 +28,7 @@ def moveAction(piles,actions):
     return piles
 
 
-with open('2022-d5-input.txt') as file:
+with open('2022/day5/2022-d5-input.txt') as file:
     rawData = file.read().split('\n')
     rawData.pop(-1)
 

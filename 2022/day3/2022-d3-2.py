@@ -13,7 +13,7 @@ def findRepeatedItem(bagOne,bagTwo,bagThree):
                     if itemFirstBag == itemThirdBag:
                         return priority(itemFirstBag)
 
-with open('2022-d3-input.txt') as file:
+with open('2022/day3/2022-d3-input.txt') as file:
     bags = file.read().split('\n')
     bags.pop(-1)
 

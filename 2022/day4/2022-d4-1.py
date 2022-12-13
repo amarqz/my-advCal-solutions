@@ -17,7 +17,7 @@ def doesPartiallyContain(pair):
                 return 1
     return 0
 
-with open('2022-d4-input.txt') as file:
+with open('2022/day4/2022-d4-input.txt') as file:
     assignments = file.read().split('\n')
     assignments.pop(-1)
 

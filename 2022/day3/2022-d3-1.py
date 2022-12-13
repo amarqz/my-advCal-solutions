@@ -13,7 +13,7 @@ def findRepeatedItem(bag):
                 return priority(itemFirstCompartment)
     return 0
 
-with open('2022-d3-input.txt') as file:
+with open('2022/day3/2022-d3-input.txt') as file:
     bags = file.read().split('\n')
 
 prioritySum = 0

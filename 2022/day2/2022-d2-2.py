@@ -2,7 +2,7 @@ challenges = {'A':{'X':'C','Y':'A','Z':'B'},'B':{'X':'A','Y':'B','Z':'C'},'C':{'
 
 pointsFor = {'A':1,'B':2,'C':3,'X':0,'Y':3,'Z':6}
 
-with open('2022-d2-input.txt') as file:
+with open('2022/day2/2022-d2-input.txt') as file:
     strategyGuide = file.read().split('\n')
     strategyGuide.pop(-1)
 

@@ -24,7 +24,7 @@ def findFirstMessage(signal):
         lastFourteen.append(char)
         count += 1
 
-with open('2022-d6-input.txt') as file:
+with open('2022/day6/2022-d6-input.txt') as file:
     signal = file.read().split('\n')
     signal = signal[:-1][0]
 

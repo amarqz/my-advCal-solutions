@@ -19,7 +19,7 @@ def challenge(my,vs):
         return res
 
 
-with open('2022-d2-input.txt') as file:
+with open('2022/day2/2022-d2-input.txt') as file:
     strategyGuide = file.read().split('\n')
     strategyGuide.pop(-1)
 
